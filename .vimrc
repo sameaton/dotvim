@@ -1,4 +1,4 @@
-source .vim-bundles
+source ~/.vim-bundles
 syntax on
 set background=dark
 colorscheme solarized
