@@ -1,0 +1,33 @@
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My Bundles here:
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'austintaylor/vim-commaobject'
+Bundle 'ervandew/supertab'
+Bundle 'godlygeek/tabular'
+Bundle 'kien/ctrlp.vim'
+Bundle 'mileszs/ack.vim'
+Bundle 'msanders/snipmate.vim'
+Bundle 'rodjek/vim-puppet'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'sjl/gundo.vim'
+Bundle 'tpope/vim-abolish'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-speeddating'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'YankRing.vim'
+Bundle 'Lokaltog/vim-powerline'
+
+filetype plugin indent on     " required!
