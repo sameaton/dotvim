@@ -90,3 +90,4 @@ let g:vimclojure#ParenRainbow = 1
 let g:paredit_electric_return = 1
 let g:paredit_smartjump = 1
 let g:paredit_shortmaps = 1
+let g:yankring_history_dir = "~/.tmp"
