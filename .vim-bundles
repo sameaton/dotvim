@@ -26,9 +26,14 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-eunuch'
+Bundle 'sameaton/sjl-slimv'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'topfunky/PeepOpen-EditorSupport', {'rtp': 'vim-peepopen/'}
+Bundle 'klen/python-mode'
 Bundle 'YankRing.vim'
+Bundle 'matchit.zip'
+Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Lokaltog/vim-powerline'
 
 filetype plugin indent on     " required!

@@ -6,7 +6,7 @@ set guifont=Anonymous\ Pro\ for\ Powerline:h12
 
 set nocompatible
 
-set modelines=0
+set modelines=2
 
 set tabstop=4
 set shiftwidth=4
@@ -39,6 +39,9 @@ endif
 " Don't use Ex mode, use Q for formatting
 map Q gq
 let g:ctrlp_map = '<c-t>'
+let g:ctrlp_working_path_mode = 'rc'
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_cmd = 'CtrlPMixed'
 let mapleader = ","
 nnoremap / /\v
 vnoremap / /\v
@@ -82,4 +85,8 @@ nnoremap <C-l> <C-w>l
 "set statusline+=%*
 
 let g:Powerline_symbols = 'fancy'
-let g:Powerline_colorscheme = 'skwp'
+let g:Powerline_colorscheme = 'solarized256'
+let g:vimclojure#ParenRainbow = 1
+let g:paredit_electric_return = 1
+let g:paredit_smartjump = 1
+let g:paredit_shortmaps = 1
