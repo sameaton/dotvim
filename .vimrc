@@ -36,10 +36,12 @@ else
     set number
 endif
 
+set mouse=a
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
 let g:ctrlp_map = '<c-t>'
-let g:ctrlp_working_path_mode = 'rc'
+let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_cmd = 'CtrlPMixed'
 let mapleader = ","
